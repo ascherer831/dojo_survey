@@ -1,0 +1,31 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+#wrapper {
+    border: 2px solid darkgray;
+    border-radius: 4px;
+    background-color: rgb(241, 241, 241);
+}
+
+form > * {
+    display: block;
+    text-align:inherit;
+    margin: 30px;
+
+}
+
+h1 {
+    text-align: center;
+}
+
+textarea {
+    vertical-align: top;
+}
+
+.submit {
+    text-align: center;
+}
