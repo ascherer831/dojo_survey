@@ -10,6 +10,7 @@ def process(request):
     request.session['dojo']= request.POST['dojo']
     request.session['lang']= request.POST['language']
     request.session['comments']= request.POST['comments']
+    print(request.session)
     return redirect('/result')
     
 
@@ -20,5 +21,6 @@ def result(request):
     #     "lang" :request.POST["language"],
     #     "comments" : request.POST["comments"],
     # }
+    print(request.session())
     return render(request, 'submissions.html')
 
